@@ -1,0 +1,28 @@
+{
+  "name": "estedadbartarserver",
+  "version": "1.0.0",
+  "description": "a server with node js and mongo DB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisalemmi/EstedadBartarServer.git"
+  },
+  "author": "ali salemmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisalemmi/EstedadBartarServer/issues"
+  },
+  "homepage": "https://github.com/alisalemmi/EstedadBartarServer#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1"
+  }
+}
