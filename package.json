@@ -4,7 +4,9 @@
   "description": "a server with node js and mongo DB",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "dev": "NODE_ENV='development' nodemon app.js",
+    "build": "NODE_ENV='production' node app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
