@@ -1,19 +1,17 @@
 const mongoose = require('mongoose');
 
 const playerSchema = new mongoose.Schema({
-  userName: {
+  username: {
     type: String,
-    required: true,
+    required: [true, 'username is required'],
     unique: true
   },
   name: {
     type: String,
-    required: true
+    required: [true, 'name is required']
   },
-  maxScore: {
-    magicSquare: Number,
-    colorSqure: Number
-  }
+  directedSquare: Number,
+  colorSquare: Number
 });
 
 module.exports = mongoose.model('Players', playerSchema);
